@@ -241,6 +241,7 @@ const phases=[{text:'Breathe\nin',phase:'Inhale slowly for 4 counts',dur:4000},{
 let pi=0;
 function runBreath(){const bt=document.getElementById('breathText');const bp=document.getElementById('breathPhase');const p=phases[pi];bt.innerHTML=p.text;bp.textContent=p.phase;pi=(pi+1)%phases.length;setTimeout(runBreath,p.dur);}
 setTimeout(runBreath,2000);
+  <script src='https://www.noupe.com/embed/019dd76c396971ae8835edfd9b54ee67d534.js'></script>
 </script>
 </body>
 </html>

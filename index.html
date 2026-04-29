@@ -218,6 +218,7 @@ nav{background:#2e4a3e;padding:14px 32px;display:flex;align-items:center;justify
   <div class="section-label" style="color:#3d6b52">AI Counsellor</div>
   <div class="section-title" style="font-family:Georgia,serif;font-style:italic;font-size:1.8rem;color:#1e3328;margin-bottom:6px">Talk to someone who listens</div>
   <p style="color:#5a7a65;font-size:0.88rem;margin-bottom:28px">Powered by AI — here to support you anytime, day or night.</p>
+   <script src='https://www.noupe.com/embed/019dd76c396971ae8835edfd9b54ee67d534.js'></script>
  </script>
 </div>
 <div class="footer">
@@ -241,7 +242,6 @@ const phases=[{text:'Breathe\nin',phase:'Inhale slowly for 4 counts',dur:4000},{
 let pi=0;
 function runBreath(){const bt=document.getElementById('breathText');const bp=document.getElementById('breathPhase');const p=phases[pi];bt.innerHTML=p.text;bp.textContent=p.phase;pi=(pi+1)%phases.length;setTimeout(runBreath,p.dur);}
 setTimeout(runBreath,2000);
-  <script src='https://www.noupe.com/embed/019dd76c396971ae8835edfd9b54ee67d534.js'></script>
 </script>
 </body>
 </html>
